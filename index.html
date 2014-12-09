@@ -6,5 +6,12 @@
 			<h1>Description:</h1>  Space Invaders but with Itchy and Scratchy.
 			<h2>Reflection:</h2>  The process on the project was long and arduous. With improvements such as a score counter and more movement from the enemies along with enhanced aesthetics. An issue that was encountered in the project was the implementation of images, fixed through further research.
 			<h3><a href='https://github.com/M-Bentley/Breakout_Arkanoid'>Link</a></h3>
+			<h4>Code:</h4>  def bullet_detect_collison(self, enemy_list):
+								for s in self.shots:
+									for e in enemy_list:
+										if pygame.sprite.collide_circle(s, e):
+											s.is_alive = False
+											e.is_alive = False
+						   Explanation:  Bullet detection, if it hits the cat it not alive.
 </body>
 </html>
