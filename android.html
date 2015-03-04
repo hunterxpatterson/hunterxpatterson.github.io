@@ -1,0 +1,18 @@
+<html>
+<head>
+	<title>Where's Southy Waldo</title>
+</head>
+<body>
+			<h1>Description:</h1>  Where's Waldo but with South Park characters
+			<h2>Reflection:</h2>  The process on the project was long and arduous. With improvements such as a score counter and more movement from the enemies along with enhanced aesthetics. An issue that was encountered in the project was the implementation of images, fixed through further research.
+			<h3><a href='https://github.com/M-Bentley/Breakout_Arkanoid'>Link</a></h3>
+			<h4>Code:</h4>  def bullet_detect_collison(self, enemy_list):
+								for s in self.shots:
+									for e in enemy_list:
+										if pygame.sprite.collide_circle(s, e):
+											s.is_alive = False
+											e.is_alive = False
+						   Explanation:  Bullet detection, if it hits the cat it not alive.
+			<h5>Images</h5><img src="scratchyshot2.png"/> This is the start, showing the oncoming Scratchies. <img src="scratchyshot1.png"/> The GAME OVER screen, displaying "GAME OVER" to signify the end of the game.
+</body>
+</html>
